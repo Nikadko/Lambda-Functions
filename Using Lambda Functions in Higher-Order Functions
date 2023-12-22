@@ -1,0 +1,12 @@
+// Example 3: Using lambda functions in higher-order functions
+
+// Function that takes a lambda function as an argument
+const higherOrderFunction = (func) => {
+    console.log("Executing the lambda function...");
+    func(); // Execute the lambda function passed as an argument
+};
+
+// Calling higherOrderFunction with a lambda function as an argument
+higherOrderFunction(() => {
+    console.log("This is a lambda function passed as an argument.");
+});
